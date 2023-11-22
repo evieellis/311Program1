@@ -7,6 +7,7 @@
 #include <string>
 #include <pthread.h>
 
+# Written by Evelyn Ellis
 std::mutex counterMutex;
     int globalCounter = 0;
     int numThreads = 2;
